@@ -334,10 +334,6 @@ def readfile():
 	with (open(args.file, 'r', encoding='utf-8')) as f:
 		line = f.readline()
 		jsoncont = json.loads(line)
-		#print(jsoncont[0].keys())
-		#print(jsoncont[0]['name'])
-		#print(jsoncont[0]['tracks'][0].keys())
-		#print(jsoncont[0]['tracks'][0]['track'].keys())
 
 		for plist in jsoncont:
 			playlist_names.append({'name':plist['name'], 'id':plist['id'], 'count':len(plist['tracks'])})
