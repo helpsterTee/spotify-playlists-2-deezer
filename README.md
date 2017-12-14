@@ -27,3 +27,8 @@ Upload your Spotify Playlists to Deezer with this Python3 application.
 So get a coffee, brew some more, establish a coffee plantation business with fair trade principles, make some money and come back to check, if the script is finished.
 
 Hint: The script will skip playlists that are already present on Deezer. So if you have any connection errors or timeouts, simply start again. It will pick up where it left.
+
+## Contribute
+1. Open issue describing the fix or improvement
+2. Start Pull request, referencing the issue
+3. Wait for approval or disapproval
