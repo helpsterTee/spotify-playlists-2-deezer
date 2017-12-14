@@ -10,7 +10,7 @@ Upload your Spotify Playlists to Deezer with this Python3 application.
 ## How To Use
 1. Use caseychu's [great playlist backup script](https://github.com/caseychu/spotify-backup) and export to JSON
    > python spotify-backup.py --format=json myplaylist.txt
-2. Register a new Deezer App (they don't support the secret-less implicit grant OAuth as of now) **Be sure to leave redirect URL and domain as in the picture**
+2. [Register a new Deezer App](https://developers.deezer.com/) (they don't support the secret-less implicit grant OAuth as of now) **Be sure to leave redirect URL and domain as in the picture**
 <img src="https://i.imgur.com/91cJaSa.png" width="600" />
 3. Change the settings in spotify-restore.py to your APPID and Secret from the just registered Deezer App
 <img src="https://i.imgur.com/qw0EWBJ.png" width="300" />
